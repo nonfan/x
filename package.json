@@ -1,16 +1,8 @@
 {
-  "name": "x",
+  "name": "my-vercel-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "main": "api/index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^1.7.7",
-    "express": "^4.21.1"
+    "start": "node api/index.js"
   }
 }
