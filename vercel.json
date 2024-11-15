@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "routes": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/index.js"
+      "src": "api/twitter.js",
+      "use": "@vercel/node"
     }
   ]
 }
