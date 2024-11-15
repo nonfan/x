@@ -7,5 +7,5 @@ module.exports = async (req, res) => {
   // // 重定向请求到指定的 Twitter 地址
   // res.redirect(twitterUrl);
 
-  res.write("Hello World!")
+  res.status(200).json({message: 'Hello from TwitterUrl!'});
 };
