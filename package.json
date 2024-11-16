@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "api/index.js",
   "scripts": {
-    "start": "node api/index.js"
+    "build": "node index.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.2.24",
+    "koa": "^2.15.3"
   }
 }
